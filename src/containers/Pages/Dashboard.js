@@ -283,6 +283,33 @@ export default function Dashboard() {
               
               </Grid>
               <Grid item md={2}>
+               
+
+              </Grid>
+
+              <Grid item md={2}>
+              
+
+              </Grid>
+            </Grid>
+            <Grid item md={2} >
+              <Divider />
+              <List>{mainListItems}</List>
+              <Divider />
+
+
+            </Grid>
+
+            <Grid item md={10} style={{backgroundColor:"#FFFDF7"}} >
+
+<Grid container md={12} style={{alignItems:"center"}}>
+              <Grid item md={2}>
+                
+              </Grid>
+              <Grid item md={6}>
+              
+              </Grid>
+              <Grid item md={2}>
                 <div style={{display:"flex",justifyContent:"center"}}>
                 <div className="block-commudity1"></div>
                 <span>Data set 1</span>
@@ -299,15 +326,6 @@ export default function Dashboard() {
 
               </Grid>
             </Grid>
-            <Grid item md={2} >
-              <Divider />
-              <List>{mainListItems}</List>
-              <Divider />
-
-
-            </Grid>
-
-            <Grid item md={10} >
               <Paper className={fixedHeightPaper}>
                 <Chart />
               </Paper>
