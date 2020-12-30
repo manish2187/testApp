@@ -138,7 +138,7 @@ export default function Dashboard() {
   const [age, setAge] = React.useState('');
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+   // setAge(event.target.value);
   };
 
   return (
@@ -167,12 +167,7 @@ export default function Dashboard() {
                     onChange={handleChange}
                     label="Commodity1"
                   >
-                    <MenuItem value="">
-                      <em>None</em>
-                    </MenuItem>
-                    <MenuItem value={10}>Ten</MenuItem>
-                    <MenuItem value={20}>Twenty</MenuItem>
-                    <MenuItem value={30}>Thirty</MenuItem>
+                   
                   </Select>
                 </FormControl>
 
@@ -185,12 +180,7 @@ export default function Dashboard() {
                     onChange={handleChange}
                     label="Commodity1"
                   >
-                    <MenuItem value="">
-                      <em>None</em>
-                    </MenuItem>
-                    <MenuItem value={10}>Ten</MenuItem>
-                    <MenuItem value={20}>Twenty</MenuItem>
-                    <MenuItem value={30}>Thirty</MenuItem>
+                    
                   </Select>
                 </FormControl>
                 </div>
@@ -252,9 +242,10 @@ export default function Dashboard() {
                     <MenuItem value="">
                       <em>None</em>
                     </MenuItem>
-                    <MenuItem value={10}>Ten</MenuItem>
-                    <MenuItem value={20}>Twenty</MenuItem>
-                    <MenuItem value={30}>Thirty</MenuItem>
+                    <MenuItem value={10}>Option1</MenuItem>
+                    <MenuItem value={20}>Option2</MenuItem>
+                    <MenuItem value={30}>Option3</MenuItem>
+                    <MenuItem value={30}>Option4</MenuItem>
                   </Select>
                 </FormControl>
 
@@ -273,9 +264,10 @@ export default function Dashboard() {
                     <MenuItem value="">
                       <em>None</em>
                     </MenuItem>
-                    <MenuItem value={10}>Ten</MenuItem>
-                    <MenuItem value={20}>Twenty</MenuItem>
-                    <MenuItem value={30}>Thirty</MenuItem>
+                    <MenuItem value={10}>Option1</MenuItem>
+                    <MenuItem value={20}>Option2</MenuItem>
+                    <MenuItem value={30}>Option3</MenuItem>
+                    <MenuItem value={30}>Option4</MenuItem>
                   </Select>
                 </FormControl>
 
