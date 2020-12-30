@@ -19,6 +19,15 @@
   height: 20px;
   background-color: #F3F3F3;
 }
+.notificationGroup{display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F7F8;
+  width: 60%;
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 28px}
+
 .active.MuiListItem-gutters{
   background-color: #5843BE;
   color: white;
@@ -27,6 +36,22 @@
 .active .MuiListItemIcon-root{
   color:white!important;
 }
+
+
+.active .MuiListItemIcon-root:hover{
+  color:#5843BE!important;
+}
+
+
+.active svg{
+  color:white!important;
+}
+
+.active svg:hover{
+  color:#5843BE!important;
+}
+
+
 .activityGrid{
   display:flex;
   flex-wrap: wrap;
@@ -168,4 +193,21 @@ border-bottom: none!important;
   to {
     transform: rotate(360deg);
   }
+}
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded{
+  top:137px!important;
+  
+}
+.commudity1-option{
+  background-color: #C30F70!important;
+  color: white!important;
+}
+
+.commudity2-option{
+  background-color: #5843BE!important;
+  color: white!important;
+}
+.MuiList-padding{
+  padding-top:0!important;
+  padding-bottom: 0!important;
 }
