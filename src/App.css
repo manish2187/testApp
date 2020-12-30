@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.butonGroup{
+  padding: 12px;
+  width: 140px;
+  padding-left: 43px;
+  height: 20px;
+  background-color: #F3F3F3;
+}
+.active.MuiListItem-gutters{
+  background-color: #5843BE;
+  color: white;
+  border-radius: 12px;
+}
+.active .MuiListItemIcon-root{
+  color:white!important;
+}
+.activityGrid{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F6F7F8;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.activityGridSearch{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F7F8;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.bitcoinField{
+  display: flex;
+  align-items: center;
+}
+.bitcoinField span{
+  color:#5843BE;
+  padding-left: 5px;
+}
+.headerDropddown .MuiInput-underline:before{
+border-bottom: none!important;
+}
+.headerDropddown label,svg{
+  color: #5843BE!important
+}
+.headerDropddown label + .MuiInput-formControl{
+  margin-top: 0px!important;
+}
+.headerDropddown .MuiInputLabel-formControl{
+  transform: translate(0, 9px) scale(1)!important;
+}
+
+
+.commudity1 label{
+  color: white!important;
+  padding-left: 15px;
+}
+
+
+.commudity1 .MuiInput-underline:before{
+  border-bottom: none!important;
+  }
+.commudity1 svg{
+  color:white!important
+}
+.block-commudity1{
+  background-color: #C30F70!important;
+  border-radius: 5px;
+  width: 40px;
+  height: 20px;
+}
+.block-commudity2{
+  background-color: #5843BE!important;
+  border-radius: 5px;
+  width: 40px;
+  height: 20px;
+}
+
+.commudity1 label + .MuiInput-formControl{
+  margin-top: 0px!important;
+}
+.commudity1 .MuiInputLabel-formControl{
+  transform: translate(0, 9px) scale(1)!important;
+}
+.commudity1{
+  background-color: #C30F70!important;
+  border-radius: 5px;
+  width: 174px;
+}
+.makeStyles-fixedHeight-17{
+  height: 500px!important;
+}
+.MuiPaper-elevation1{box-shadow: none!important;
+}
+.MuiPaper-root{
+  background-color: #FFFDF7!important;
+}
+.commudity2 .MuiInput-underline:before{
+  border-bottom: none!important;
+  }
+.commudity2 label{
+  color:white!important;
+  padding-left: 15px;
+}
+
+
+.commudity2 svg{
+  color:white!important
+}
+.commudity2 label + .MuiInput-formControl{
+  margin-top: 0px!important;
+}
+.commudity2 .MuiInputLabel-formControl{
+  transform: translate(0, 9px) scale(1)!important;
+ 
+}
+
+.commudity2{
+  background-color: #5843BE!important;
+  border-radius: 5px;
+  width: 174px;
+}
+
+.MuiListItemIcon-root{
+  color:#5843BE!important;
+}
+/*
+.MuiListItem-gutters{
+  color:#5843BE!important;
+}*/
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.custombuttons{
+  border: none!important;
+  color:#707070!important;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
